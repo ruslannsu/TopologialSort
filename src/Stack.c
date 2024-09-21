@@ -47,7 +47,8 @@ Data Pop(Stack *st)
     }
     return temp;
 }
-void DestroyStack(Stack *st) {
+void DestroyStack(Stack *st)
+{
     free(st->data);
     free(st);
 }
